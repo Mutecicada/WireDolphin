@@ -150,8 +150,10 @@
     <ClCompile Include="winpcap.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="data_list.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="data_list.h" />
     <ClInclude Include="pkt_s.h" />
     <ClInclude Include="preview.h" />
     <ClInclude Include="print_pktdata.h" />
